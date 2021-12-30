@@ -249,25 +249,3 @@ if __name__ == '__main__':
 # print(list_pdf_files)
 # print(list_img_files)
 # print(list_YoE)
-
-# TO DO:
-# - add function that figures out when the docx file was last updated, and modify the YoE accordingly
-# ------------DONE, sorta. Added a column to the xlsx file that mentions how long since the last update. Could add to varying text types
-# - figure out how to convert/read all files within a specified parent folder?
-# ------------DONE, used os.walk()
-# - the YoE isn't reading for everyone. Need to add multiple data types to the string??
-# ------------DONE, had to increase resolution and crop the images
-# - create xlsx file summarizing the results
-# ------------DONE, used xlsxwriter library. Added conditional formatting
-# - How do I ignore all other docx files in the folder structure? old versions, other files, etc. I want os.walk() to end when it reaches the first docx file
-# ------------TEMP SOLUTION, allow all docx files to be found, but added some functionality to add error messages
-# - the function updates the 'date modified' of the word file... how do i fix that? Can't find read-only option, but i could open a copy of the file instead of the actual version?
-# ------------TEMP SOLUTION, create a copy using copy2(), then delete. VERY SLOW.... not ideal
-# - Create GUI using Gooey
-# ------------DONE
-# - Why does Steph's read as "je"?
-# ------------DONE, had to increase resolution
-# - How do I run this script on the R: drive? Can I add tesseract there? Should I put this script online/jupyter?
-# ------------using Pyinstaller...... but need to have modules imported? install python?
-# - Place on github, send to team for review
-# ------------
