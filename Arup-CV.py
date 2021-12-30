@@ -37,8 +37,8 @@ def parse_args():
 
 def main():
     # User Inputs. Use r"[path]" format
-    parent_folder = r"C:\Users\Jeffrey.Russell\OneDrive - Arup\02_Learning & Training\Python\2021-10 Arup CV Script for Marketing\z_word files4"
-    output_folder = r"C:\Users\Jeffrey.Russell\OneDrive - Arup\02_Learning & Training\Python\2021-10 Arup CV Script for Marketing\z_output files4"
+    parent_folder = r"C:\Users\Jeffrey.Russell\..."
+    output_folder = r"C:\Users\Jeffrey.Russell\..."
 
     # Tesseract OCR must be saved on the computer. Add path here to the 'tesseract.exe' file. Use r"[path]" format
     tesseract_path = r"C:\Users\Jeffrey.Russell\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
@@ -237,15 +237,3 @@ if __name__ == '__main__':
         parse_args()
     else:
         main()
-
-# start(parent_folder, output_folder, tesseract_path)
-# parse_args()
-
-
-# print(list_names)
-# print(list_docx_files)
-# print(list_docx_modtime)
-# print(list_file_age)
-# print(list_pdf_files)
-# print(list_img_files)
-# print(list_YoE)
