@@ -2,23 +2,5 @@
 
 This script was created to simplify the process of pulling important information from Arup's internal CVs. 
 
-## Libraries required:
-from gooey import Gooey, GooeyParser
-
-import os
-
-from datetime import datetime
-
-from docx2pdf import convert
-
-from shutil import copy2
-
-import os
-
-from pdf2image import convert_from_path
-
-from PIL import Image
-
-import pytesseract
-
-import xlsxwriter
+## Note:
+When the conversion from .docx to .pdf is ongoing, keep and eye out for any pop-ups that are forcing the script to pause. Common pop-ups include MS Word 'do you want to save?' dialogues and MS Word 'select confidentiality status' dialogues. Always make sure to select 'Yes' to save, and select 'Ok' after selecting a confidentiality status.
